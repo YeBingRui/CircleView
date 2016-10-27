@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.main2);
         setContentView(R.layout.activity_main);
+        ((CircleView)findViewById(R.id.circleView)).setImgSrc(R.drawable.jay_jay);
+
 //        mImageView1= (ImageView) findViewById(R.id.imageView1);
 //        mImageView2= (ImageView) findViewById(R.id.imageView2);
 //        mBitmap1= BitmapFactory.decodeResource(getResources(),R.drawable.jay_jay1);
